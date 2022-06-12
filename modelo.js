@@ -10,7 +10,7 @@ function calcule() {
     for (a = 0; a <= 10; a++) {
       let item = document.createElement("option");
       item.text = `${n1} X ${a} = ${n1 * a}`;
-      item.value = `res. ${a}`;
+      item.value = `res ${a}`;
       res.appendChild(item);
     }
   }
